@@ -31,9 +31,9 @@ export function rateLimit(
 // Clean up old entries periodically
 setInterval(() => {
   const now = Date.now()
-  for (const [key, value] of rateMap.entries()) {
+  rateMap.forEach((value, key) => {
     if (now > value.resetAt) rateMap.delete(key)
-  }
+  })
 }, 60_000)
 
 export function getClientIp(request: Request): string {
