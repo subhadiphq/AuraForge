@@ -1,0 +1,34 @@
+{
+  "name": "AuraForge — Viral AI Tools",
+  "short_name": "AuraForge",
+  "description": "Free viral AI identity and creator tools",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#8b5cf6",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "AI Roast Me",
+      "url": "/tools/ai-roast-me",
+      "description": "Get roasted by AI"
+    },
+    {
+      "name": "Creator Toolkit",
+      "url": "/tools/creator-toolkit",
+      "description": "AI creator tools"
+    }
+  ]
+}
