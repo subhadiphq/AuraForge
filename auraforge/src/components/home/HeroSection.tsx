@@ -32,7 +32,7 @@ const FLOATING_CARDS = [
   },
   {
     emoji: '✨',
-    text: '"Viral potential: 97% — you're built different"',
+    text: '"Viral potential: 97% — you\'re built different"',
     tool: 'Creator DNA',
     color: 'from-cyan-500/20 to-teal-500/10',
     position: 'left-4 bottom-24 md:left-12 md:bottom-20',
@@ -242,4 +242,5 @@ function AnimatedWord({ words, currentWord }: { words: string[]; currentWord: nu
       ))}
     </div>
   )
-}
+                                   }
+          
